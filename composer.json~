@@ -11,5 +11,8 @@
             "email": "titocanteros@gmail.com"
         }
     ],
+	"autoload": {
+        "psr-0": { "TiiToo\\ZetaWebmailBundle\\": "" }
+    },
     "minimum-stability": "dev"
 }
