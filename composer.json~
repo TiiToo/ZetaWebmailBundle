@@ -2,6 +2,8 @@
     "name": "tito/zeta-webmail-bundle",
     "description": "Bundle to Recive an Send Mail",
     "require": {
+	"zetacomponents/unit-test": "dev-master",
+	"zetacomponents/base": "dev-master",
         "zetacomponents/workflow": "dev-master"
     },
     "license": "MIT",
