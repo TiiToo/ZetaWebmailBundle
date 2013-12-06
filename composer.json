@@ -1,0 +1,18 @@
+{
+    "name": "tito/zeta-webmail-bundle",
+    "description": "Bundle to Recive an Send Mail",
+    "require": {
+        "zetacomponents/workflow": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TiiToo",
+            "email": "titocanteros@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-0": { "TiiToo\\ZetaWebmailBundle\\": "" }
+    },
+    "minimum-stability": "dev"
+}
