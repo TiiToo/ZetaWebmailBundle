@@ -1,5 +1,5 @@
 {
-    "name": "tito/zeta-webmail-bundle",
+    "name": "simplethings/zeta-webmail-bundle",
     "type": "symfony-bundle",
     "description": "Symfony2 Send and Recibe Mail",
     "keywords": ["zeta", "webmail", "mail"],
@@ -13,7 +13,7 @@
         }
     ],
     "replace": {
-        "tito/zeta-webmail-bundle": "dev-master"
+        "simplethings/zeta-webmail-bundle": "dev-master"
     },
     "autoload": {
         "psr-0": { "SimpleThings\\ZetaWebmailBundle\\": "" }
