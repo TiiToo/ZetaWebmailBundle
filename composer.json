@@ -16,7 +16,7 @@
         "tito/zeta-webmail-bundle": "dev-master"
     },
     "autoload": {
-        "psr-0": { "SimpleThings\\ZetaWebmail": "" }
+        "psr-0": { "SimpleThings\\ZetaWebmailBundle\\": "" }
     },
     "target-dir": "SimpleThings/ZetaWebmailBundle"
 }
