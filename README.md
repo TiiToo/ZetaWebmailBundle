@@ -42,10 +42,14 @@ Add the following lines to your autoload.php:
 
 Using composer
 
+
 Add following lines to your composer.json file:
+
 "require": {
+
     ...
     "tito/zeta-webmail-bundle": "dev-master"
+    
 }
 
 
