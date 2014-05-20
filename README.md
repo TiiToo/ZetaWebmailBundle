@@ -32,17 +32,22 @@ Install Zeta Components
 
 Currently this has still to be done through the old ezcomponents.org PEAR channel:
 
-    pear channel-discover pear.ezcomponents.org
-    pear install ezc/Mail
-
+    pear channel-discover components.ez.no
+    pear install -a ezc/eZComponents
+    
 Add the following lines to your autoload.php:
 
     require_once "ezc/Base/base.php";
     spl_autoload_register(array("ezcBase", "autoload"));
 
-Download this bundle into vendor/bundles/SimpleThings/ZetaWebmail:
+Using composer
 
-    git clone git://github.com/simplethings/ZetaWebmail.git vendor/bundles/SimpleThings/ZetaWebmail
+Add following lines to your composer.json file:
+"require": {
+    ...
+    "tito/zeta-webmail-bundle": "dev-master"
+}
+
 
 Register Autoloading namespace SimpleThings into app/autoload.php
 
