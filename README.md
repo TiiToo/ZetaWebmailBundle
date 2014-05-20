@@ -40,7 +40,6 @@ Add the following lines to your autoload.php:
     require_once "ezc/Base/base.php";
     spl_autoload_register(array("ezcBase", "autoload"));
 
-Using composer
 
 
 Add following lines to your composer.json file:
